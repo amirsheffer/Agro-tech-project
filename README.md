@@ -26,6 +26,7 @@ Software and data analysis:
 	1) 3D visualization of the greenhouse
 	2) data importing and organizing
 	3) 2D interpolation and extrapolation of the data to each face of the greenhouse (east and west). Visualization through a heatmap, the time dimension was animated using a GIF file.
+
 Notes on the code:
 - Two points (0,3.25,3) and (15,3.25,3) were extrapolated using the other points on the roof, to create a rectangular data set to interpolate from.
 - sensor 3 data was irrelevant, and therefore replaced by the closest sensor.

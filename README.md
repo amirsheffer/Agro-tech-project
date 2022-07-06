@@ -35,7 +35,7 @@ Notes on the code:
  
 how to install:
 1) connect all the electronics as shown in the pictures.
-![wiring of a single esp32](https://user-images.githubusercontent.com/101636430/177515522-70738d6c-d9ed-4fa0-89d4-fb8b30e37c62.jpg)
+![wiring of a single esp32](https://user-images.githubusercontent.com/101636430/177515522-70738d6c-d9ed-4fa0-89d4-fb8b30e37c62.jpg){ width: 200px; }
 
 2) load the code to the esp32 using Arduino-make sure you get the address for the DS18B20 sensor
 3)  make sure that the sensors connect to the cloud and transmit the data to the correct channels.

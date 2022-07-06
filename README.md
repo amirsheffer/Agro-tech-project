@@ -26,6 +26,8 @@ Software and data analysis:
 	1) 3D visualization of the greenhouse
 	2) data importing and organizing
 	3) 2D interpolation and extrapolation of the data to each face of the greenhouse (east and west). Visualization through a heatmap, the time dimension was animated using a GIF file.
+
+
 Notes on the code:
 - Two points (0,3.25,3) and (15,3.25,3) were extrapolated using the other points on the roof, to create a rectangular data set to interpolate from.
 - sensor 3 data was irrelevant, and therefore replaced by the closest sensor.
@@ -33,6 +35,8 @@ Notes on the code:
  
 how to install:
 1) connect all the electronics as shown in the pictures.
+![wiring of a single esp32](https://user-images.githubusercontent.com/101636430/177515522-70738d6c-d9ed-4fa0-89d4-fb8b30e37c62.jpg)
+
 2) load the code to the esp32 using Arduino-make sure you get the address for the DS18B20 sensor
 3)  make sure that the sensors connect to the cloud and transmit the data to the correct channels.
 4) chain all esp32’s to each other, and to the 5V power supply, then install on the wall.

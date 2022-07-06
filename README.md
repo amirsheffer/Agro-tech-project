@@ -1,7 +1,7 @@
 # An Agro-tech-project
 The project sets a meteorological measurement system to a 15*6.5*3 greenhouse parameter on 14 points
 The project's product is:
-- A time-changing 2D heatmap of the greenhouse's main wall (measuring T, RH, and calculation VPD), the western and eastern ones.
+- A time-changing 2D heatmap of a 2D sensor array (a greenhouse's main wall, for this experiment) (measuring T, RH, and calculation VPD)
 
 Components list:
 
@@ -26,13 +26,25 @@ Software and data analysis:
 	1) 3D visualization of the greenhouse
 	2) data importing and organizing
 	3) 2D interpolation and extrapolation of the data to each face of the greenhouse (east and west). Visualization through a heatmap, the time dimension was animated using a GIF file.
-
 Notes on the code:
 - Two points (0,3.25,3) and (15,3.25,3) were extrapolated using the other points on the roof, to create a rectangular data set to interpolate from.
 - sensor 3 data was irrelevant, and therefore replaced by the closest sensor.
 -the minimum and maximum values for the heat map were set by the minimum and maximum values of sensor 4 and sensor 1.
  
+how to install:
+1) connect all the electronics as shown in the pictures.
+2) load the code to the esp32 using Arduino-make sure you get the address for the DS18B20 sensor
+3)  make sure that the sensors connect to the cloud and transmit the data to the correct channels.
+4) chain all esp32’s to each other, and to the 5V power supply, then install on the wall.
+
+How to process:
+1) Run ‘data processing’
+2) Run ‘2D modeling’ (might take some time to run)
+
+
 Things to improve in future versions:
 - A symmetrical sensor placement would improve interpolation.
-- 3D modeling considering the roof as a separate surface
-- Add a time-controlling slider to the animation, to help better analyze the results. 
+- 3D modeling considering the roof as a separate surface, would improve viability.
+- Add a time-controlling slider to the animation, would help better analyze the results. 
+
+ 

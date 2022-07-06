@@ -3,6 +3,8 @@ The project sets a meteorological measurement system to a 15*6.5*3 greenhouse pa
 The project's product is:
 - A time-changing 2D heatmap of a 2D sensor array (a greenhouse's main wall, for this experiment) (measuring T, RH, and calculation VPD)
 
+![a snippet from the gif](https://user-images.githubusercontent.com/101636430/177527053-d48cd177-4625-4e7a-b8b3-82157b17210e.png)
+
 Components list:
 
 Electronics:

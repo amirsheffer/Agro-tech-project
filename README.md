@@ -1,3 +1,5 @@
+
+
 # An Agro-tech-project
 The project sets a meteorological measurement system to a 15*6.5*3 greenhouse parameter on 14 points
 The project's product is:
@@ -60,3 +62,5 @@ Things to improve in future versions:
 - 3D modeling considering the roof as a separate surface, would improve viability.
 - Add a time-controlling slider to the animation, would help better analyze the results. 
 
+
+![IMG-20220711-WA0021](https://user-images.githubusercontent.com/101636430/178229690-c706cca7-0a67-4061-8db6-bbfd09f1a318.jpg)

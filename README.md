@@ -18,7 +18,7 @@ Electronics:
 Hardware:
 - Electric wires
 - Electric power supply (5V)
-- ventalized electric boxes to shade sensors 
+- ventilated electric boxes to shade sensors 
 
 Software and data analysis:
 - Two codes were used on the esp32 (written in C++).
@@ -42,7 +42,7 @@ how to install:
 
 2) load the code to the esp32 using Arduino-make sure you get the address for the DS18B20 sensor
 3)  make sure that the sensors connect to the cloud and transmit the data to the correct channels.
-4) chain all esp32’s to each other, and to the 5V power supply, then install on the wall.
+4) chain all esp32’s to each other, and the 5V power supply, then install them on the wall.
 ![image](https://user-images.githubusercontent.com/101636430/178216996-10d3ca53-b73d-445f-8e0a-25d8068287fe.png)
 ![IMG-20220706-WA0013](https://user-images.githubusercontent.com/101636430/178217241-0358012e-1d42-4135-ae17-eccf514ebce1.jpg)
 
@@ -51,8 +51,12 @@ How to process:
 1) Run ‘data processing’
 2) Run ‘2D modeling’ (might take some time to run)
 
-
+Short data analysis:
+- Night-time temperature is uniform throughout the sensors.
+- Temperature is greatly influenced by shading. Eastern temperatures are hot from the morning to noon, western temperatures are high from afternoon to sunset.
+- The southern wall has a wet mattress cooling system, in both cases, it is visible that the southern side is cooler than the northern one.
 Things to improve in future versions:
 - A symmetrical sensor placement would improve interpolation.
 - 3D modeling considering the roof as a separate surface, would improve viability.
 - Add a time-controlling slider to the animation, would help better analyze the results. 
+

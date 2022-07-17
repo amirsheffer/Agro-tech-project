@@ -1,0 +1,18 @@
+Software and data analysis:
+- Two codes were used on the esp32 (written in C++).
+	1) To find the address of the DS18B20 sensor
+	2) To program the sensors to measure and communicate with a ‘thinkspeak’ cloud via WiFi
+- Data analysis and visualization were done in python, and include 3 codes:
+	1) 3D visualization of the greenhouse
+	2) data importing and organizing
+	3) 2D interpolation and extrapolation of the data to each face of the greenhouse (east and west). Visualization through a heatmap, the time dimension was animated using a GIF file.
+
+
+Notes on the code:
+- Two points (0,3.25,3) and (15,3.25,3) were extrapolated using the other points on the roof, to create a rectangular data set to interpolate from.
+- sensor 3 data was irrelevant, and therefore replaced by the closest sensor.
+-the minimum and maximum values for the heat map were set by the minimum and maximum values of sensor 4 and sensor 1.
+
+How to process:
+1) Run ‘data processing’
+2) Run ‘2D modeling’ (might take some time to run)

@@ -7,20 +7,6 @@ The project's product is:
 
 ![a snippet from the gif](https://user-images.githubusercontent.com/101636430/177527053-d48cd177-4625-4e7a-b8b3-82157b17210e.png)
 
-Components list:
-
-Electronics:
-- 7 esp32 microprocessors
-- 7DS18B20 Temperature Sensor mounted on a water-proof mount and 1.5 m cable
-- 7 SHT31 Temperature & Humidity Sensor
-- 7 breadboards
-- 4.7k Ohm resistors
-- Jumper wires
-
-Hardware:
-- Electric wires
-- Electric power supply (5V)
-- ventilated electric boxes to shade sensors 
 
 Software and data analysis:
 - Two codes were used on the esp32 (written in C++).

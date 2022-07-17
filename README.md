@@ -1,7 +1,7 @@
 
 
 # An Agro-tech-project
-The project sets a meteorological measurement system to a 15*6.5*3 greenhouse parameter on 14 points
+The project sets a meteorological measurement system to a greenhouse on 14 points
 The project's product is:
 - A time-changing 2D heatmap of a 2D sensor array (a greenhouse's main wall, for this experiment) (measuring T, RH, and calculation VPD)
 

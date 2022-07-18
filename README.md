@@ -2,10 +2,6 @@
 
 # An Agro-tech-project
 The project sets a meteorological measurement system to a greenhouse on 14 points
-The project's product is:
-- A time-changing 2D heatmap of a 2D sensor array (a greenhouse's main wall, for this experiment) (measuring T, RH, and calculation VPD)
-
-![a snippet from the gif](https://user-images.githubusercontent.com/101636430/177527053-d48cd177-4625-4e7a-b8b3-82157b17210e.png)
 Link to the whole time lapse heatmap: https://youtu.be/TZ94sUR4VJI
 
 Software and data analysis:

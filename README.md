@@ -4,7 +4,7 @@
 The project sets a meteorological measurement system to a greenhouse on 14 points
 Link to the whole time lapse heatmap: https://youtu.be/TZ94sUR4VJI
 
-Software and data analysis:
+# Software and data analysis:
 - Two codes were used on the esp32 (written in C++).
 	1) To find the address of the DS18B20 sensor
 	2) To program the sensors to measure and communicate with a ‘thinkspeak’ cloud via WiFi

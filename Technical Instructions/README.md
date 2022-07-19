@@ -17,6 +17,8 @@ Hardware:
 
 how to install:
 1) connect all the electronics as shown in the pictures.
+
+
 ![lolin32-and-sht31_bb](https://user-images.githubusercontent.com/109095522/179711100-136471d2-17a2-463a-8c82-1d72b0fb9d78.jpeg)
 ![ds18b20_esp32_single_normal](https://user-images.githubusercontent.com/109095522/179711036-25204307-d4cd-4342-a9e9-790a43e0ed0e.jpeg)
 
@@ -47,3 +49,4 @@ How to process:
 1) Run ‘data processing’
 2) Run ‘2D modeling’ (might take some time to run)
 
+link to the codes [here](https://github.com/amirsheffer/Agro-tech-project/tree/main/code)

@@ -9,10 +9,10 @@
 #include <Math.h>
 unsigned long myChannelNumber = 1774830;
 
-const char * myWriteAPIKey = "J009R8CJGQW390T5";
+const char * myWriteAPIKey = "myWriteAPIKey"; //add your api write key
 
-const char* ssid = "agrotech-lab-1"; // your wifi SSID name
-const char* password = "1Afuna2Gezer" ;// wifi pasword
+const char* ssid = "wifi"; // your wifi SSID name
+const char* password = "password" ;// wifi pasword
  
 const char* server = "api.thingspeak.com";
 
@@ -23,7 +23,7 @@ OneWire oneWire(ONE_WIRE_BUS);
 // Pass our oneWire reference to Dallas Temperature sensor 
 DallasTemperature sensors(&oneWire);
 
-DeviceAddress sensor1 = { 0x28, 0xB6, 0x21, 0x11, 0x0, 0x0, 0x0, 0x29 };
+DeviceAddress sensor1 = { 0x28, 0xB6, 0x21, 0x11, 0x0, 0x0, 0x0, 0x29 }; // adress for DS18B20 sensor
 
 Adafruit_SHT31 sht31 = Adafruit_SHT31();
  
@@ -72,8 +72,8 @@ void loop() {
   float RH2 = sht31.readHumidity();
   float svp2 = 610.7 * (pow(10, (7.5*sht31.readTemperature()/(237.3+sht31.readTemperature()))));  
   float vpd2 = (((100 - sht31.readHumidity())/100)*svp2)/1000;
+ // set fields for thingspeak data
   ThingSpeak.setField(1,tmp);
-  
   ThingSpeak.setField(2,tmp2);
   ThingSpeak.setField(3,RH2);
   ThingSpeak.setField(4,vpd2);
